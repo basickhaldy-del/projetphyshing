@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mot de passe oublié</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input {
+            width: 90%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background: #1877f2;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #145db2;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Réinitialiser le mot de passe</h2>
+        <p>Entrez votre adresse e-mail pour recevoir un lien de réinitialisation.</p>
+        <form action="#">
+            <input type="email" placeholder="Adresse e-mail" required>
+            <button type="submit">Envoyer</button>
+        </form>
+    </div>
+</body>
+</html>
